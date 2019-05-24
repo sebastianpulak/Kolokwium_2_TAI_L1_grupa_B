@@ -9,7 +9,7 @@ import { DataService } from '../data.service'
 })
 export class OrdersItemSPComponent implements OnInit {
 
-  @Input() public image = '';
+  @Input() public image: string;
   @Input() public title: string;
   @Input() public id: number;
   @Input() public price: number;
